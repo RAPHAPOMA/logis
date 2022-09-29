@@ -74,7 +74,21 @@ section{
 
 #blessing{
     background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(/image/cta-bg.jpg);
+    background-attachment: fixed;
 }
+
+#timaya{
+    background-image: url(/image/testimonials-bg.jpg);
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-item img{
+    border-radius: 1000px;
+    width: 100px !important;
+}
+
+
 
 
 
