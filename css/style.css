@@ -20,6 +20,13 @@ section{
     background-color: #263348;
 }
 
+:hover.nav-link{
+    color: white !important;
+}
+:hover.nav-item a{
+    color: white !important;
+}
+
 .fan{
     background-color: #0F44FF;
 }
@@ -88,6 +95,9 @@ section{
     width: 100px !important;
 }
 
+#footer{
+    background-color: #0E1D34;
+}
 
 
 
