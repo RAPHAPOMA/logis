@@ -110,6 +110,18 @@ section{
     background-color: #0E1D34;
 }
 
+.pic1{
+    overflow: hidden;
+}
+
+.pic1:hover img{
+    transform: scale(1.1);
+}
+
+.pic1 img{
+    transition: all 0.5s ease;
+}
+
 .yuri{
     font-size: 30px !important;
 }
