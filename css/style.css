@@ -85,18 +85,44 @@ section{
 }
 
 #timaya{
-    background-image: url(/image/testimonials-bg.jpg);
-    align-items: center;
-    justify-content: center;
+    background:linear-gradient(rgba(9, 20, 41, 0.7),rgba(32, 33, 94, 0.7)), url(/image/testimonials-bg.jpg);
+}
+
+
+.carousel-item{
+    height: 300px;  
 }
 
 .carousel-item img{
-    border-radius: 1000px;
+    border-radius: 50% !important;
     width: 100px !important;
+    margin: auto !important;
+    background-color: rgba(255, 255, 255, 0.418);
+    padding: 10px; 
+}
+
+.star i{
+    background-color: darkgoldenrod;
+    color: darkorange !important;
 }
 
 #footer{
     background-color: #0E1D34;
+}
+
+.yuri{
+    font-size: 30px !important;
+}
+
+.socials a{
+    border-radius: 70px;
+    border: 1px solid  white;
+    padding: 5px 10px 5px 10px;
+    color: rgb(151, 168, 168);
+}
+
+.socials a:hover{
+    color: white;
 }
 
 
